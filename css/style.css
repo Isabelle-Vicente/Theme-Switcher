@@ -1,0 +1,90 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  --primary-blue: #75b4ff;
+  --primary-blue-header: rgba(117, 180, 255, 0.8);
+  --white: #ffffff;
+  --white-opacity: rgba(255, 255, 255, 0.5);
+  --primary-background: #f0f0f7;
+
+  --white-opacity-search: hsla(0, 0%, 100%, 0.41);
+  --primary-border: #e6e6f0;
+
+  --home-blog: hsla(200, 19%, 18%, 1);
+
+  --background-cards: #fff;
+
+  --border-contato-home: #e6e6f0;
+
+  --background-all: #fffdfd;
+
+  --black: #000;
+
+  --title-price: #75b4ff;
+
+  scroll-behavior: smooth;
+}
+
+body.dark {
+  --border-contato-home: #fff;
+  --black: #fff;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: var(--primary-background);
+
+  overflow-x: hidden;
+  display: flex;
+  justify-content: center;
+  
+}
+
+svg.svg path {
+  fill: var(--white);
+}
+
+header .container-header {
+  height: auto;
+  background-color: var(--primary-blue-header);
+}
+
+header .resources {
+  height: 79px;
+  background-color: var(--white-opacity);
+
+  padding: 18px 72px 18px 72px;
+
+  display: flex;
+  align-items: center;
+}
+
+header .resources .button-resources {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+
+  border: none;
+  background: none;
+  margin-right: 46px;
+
+  font-family: 'Archivo', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 42px;
+
+  cursor: pointer;
+
+  color: var(--white);
+}
+
+header .resources .button-theme {
+  margin-left: auto;
+  cursor: pointer;
+}
